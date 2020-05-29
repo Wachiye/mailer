@@ -1,1 +1,20 @@
 
+{
+  "name" : "mailing app",
+  "description" : "Testing email functionality with node js.",
+  
+  "dependencies" : {
+    nodemailer:"latest"
+  },
+
+  "engines":{
+    "node": "12.13.0"
+  },
+
+  "repository" : {
+    "type": "git", 
+     "url": "git://github.com/Wachiye/mailer.git"
+   },
+  "main" : "server.js",
+  "version" : "1.0.0"
+}
